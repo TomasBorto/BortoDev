@@ -1,0 +1,83 @@
+.home{
+    /* background-image: url('../../../images/earth&moon.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; */
+    display: flex;    
+    min-height: 87vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil img{
+    width: 325px;
+    height: 430px;
+    border-radius: 40%;
+}
+
+.texto{
+    color: #fff;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8%;
+}
+
+.texto h1,h2{
+    font-size: 3rem;
+}
+
+.texto p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto span{
+    color: gold;
+}
+
+.home-buttons {
+    display: flex;
+}
+
+@media screen and (max-width: 960px){
+    .home{
+        margin-top: 13vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto p{
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .texto{
+        width: 90%;
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .perfil img{
+        width: 200px;
+        height: 260px;
+    }
+    .texto h1,h2{
+        font-size: 2rem;
+    }
+}

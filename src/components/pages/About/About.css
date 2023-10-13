@@ -1,0 +1,27 @@
+.about{
+    min-height: 87vh;
+    /* background-image: url('../../../images/earth&moon.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.about h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 300px) {
+    .about h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .about{
+        margin-top: 13vh;
+    }
+}

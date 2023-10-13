@@ -1,0 +1,60 @@
+.main-service{
+    /* background-image: url(../../../images/marte3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; */
+    width: 100%;
+    min-height: 125vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.main-service h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 8px;
+    max-width: 922px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .cards{
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .main-service h1{
+        margin-top: 15vh;
+    }
+}
+
+
+
+/* @media only screen and (max-width: 315px) {
+    .body__proyectos .main__service .cards .card{
+        height: 600px;
+
+        .card-content{
+
+            img{
+                height: 150px;
+            }
+        }
+    }
+} */

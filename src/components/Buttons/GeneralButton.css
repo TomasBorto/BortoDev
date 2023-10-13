@@ -1,0 +1,35 @@
+.link{
+    color: #fff;
+    width: 200px;
+    height: 100%;
+}
+
+.general-button{
+    text-decoration: none;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.general-button:hover{
+    border-color: transparent;
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+}
+
+@media only screen and (max-width: 900px) {
+    .general-button{
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(1rem);
+    }
+}

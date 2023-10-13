@@ -1,0 +1,41 @@
+.item{
+    display: flex;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.item span{
+    color: #fff;
+    margin-right: 10px;
+}
+
+.text-item h3{
+    font-size: 30px;
+}
+
+.text-item p{
+    font-size: 15px;
+    max-width: 420px;
+}
+
+.item-noline{
+    display: flex;
+    color: #fff;
+}
+
+.item-noline span{
+    color: #fff;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 960px){
+    .text-item h3{
+        font-size: 20px;
+    }
+    
+    .text-item p{
+        font-size: 10px;
+    }
+}
