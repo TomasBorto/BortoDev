@@ -56,6 +56,15 @@
 .boot{
     color: #7a52b3;
 }
+.next{
+    color: #172b4d;
+}
+.sql{
+    color: #00758F;
+}
+.nest{
+    color: #E0234E;
+}
 
 .js{
     color: #f0d81e;

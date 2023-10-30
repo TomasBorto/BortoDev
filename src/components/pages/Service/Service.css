@@ -16,7 +16,10 @@
 }
 
 .my-service h1{
+    text-align: center;
     font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .my-service p{
@@ -64,7 +67,7 @@
 
 @media screen and (max-width: 960px){
     .my-service h1{
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .my-service p{

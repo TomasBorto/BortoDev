@@ -56,8 +56,8 @@ const ImageSlider = ({ slides, parentWidth }) => {
 
     return (
       <div className='slider'>
-        <div className={(index == 3) ? "left-arrow-black" : "left-arrow" }   onClick={goToPrev}><FaChevronLeft /></div>
-        <div className={(index == 3) ? "right-arrow-black" : "right-arrow" } onClick={goToNext}><FaChevronRight /></div>
+        <div className={(index == 6) ? "left-arrow-black" : "left-arrow" }   onClick={goToPrev}><FaChevronLeft /></div>
+        <div className={(index == 6) ? "right-arrow-black" : "right-arrow" } onClick={goToNext}><FaChevronRight /></div>
         <div style={slideContainerOverflow}>
             <div style={getSlideContainer}>
                 {slides.map((_, slideIndex) => (
