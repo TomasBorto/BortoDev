@@ -1,10 +1,13 @@
 import React from "react"
 import { FaSass, FaReact, FaCss3, FaHtml5, FaJs, FaBootstrap } from 'react-icons/fa6';
-import { SiSolidity, SiTailwindcss, SiNodedotjs, SiMongodb, SiTypescript } from 'react-icons/si';
+import { SiSolidity, SiTailwindcss, SiNodedotjs, SiMongodb, SiTypescript, SiMysql, SiNextdotjs, SiNestjs } from 'react-icons/si';
 import SanaSana from './assets/sanasana.png';
 import PulseMiner from './assets/PulseMiner.png';
 import CPGoma from './assets/CPGoma.png';
 import BortoDev from './assets/BortoDev.png';
+import PromptGPT from './assets/PromptGPT.png';
+import Posidonia from './assets/Posidonia.png';
+import Nike from './assets/Nike.png';
 
 export const ProyectosData = [
     {
@@ -32,9 +35,73 @@ export const ProyectosData = [
         ]
     },
     {
+        nombre: "Posidonia DAO",
+        ph: Posidonia,
+        texto: "Proyecto para combatir el cambio climatico con ayuda de la blockchain. Este proyecto fue presentado por el cliente en la convencion Ingenion 2023 en españa.",
+        linkRepo: "https://github.com/TomasBorto/posidonia",
+        linkSitio: "https://posidoniadao.com/",
+        madeWith:[
+            {
+                icon: <FaReact />,
+                iconClass: "react",
+                title: "react"
+            },
+            {
+                icon: <SiTailwindcss />,
+                iconClass: "css",
+                title: "css3"
+            }
+        ]
+    },
+    {
+        nombre: "ChatGPT Prompts",
+        ph: PromptGPT,
+        texto: "Una estilo de red social donde usuarios que se esten logueados podran subir prompts usados en aplicaciones de IA y tambien pueden buscar publicaciones de otros usuarios. ",
+        linkRepo: "https://github.com/TomasBorto/ChatGPTPrompts",
+        linkSitio: "https://chat-gpt-prompts-zeta.vercel.app/",
+        madeWith:[
+            
+            {
+                icon: <SiTailwindcss />,
+                iconClass: "tail",
+                title: "Tailwind"
+            },
+            {
+                icon: <SiNextdotjs />,
+                iconClass: "next",
+                title: "Next"
+            },
+            {
+                icon: <SiMongodb />,
+                iconClass: "mongodb",
+                title: "MongoDB"
+            }
+        ]
+    },
+    
+    {
+        nombre: "Nike",
+        ph: Nike,
+        texto: "Clon de una parte del sitio web de Nike. ",
+        linkRepo: "https://github.com/TomasBorto/Nike",
+        linkSitio: "https://tomasborto.github.io/Nike/",
+        madeWith:[
+            {
+                icon: <FaReact />,
+                iconClass: "react",
+                title: "react"
+            },
+            {
+                icon: <SiTailwindcss />,
+                iconClass: "css",
+                title: "css3"
+            }
+        ]
+    },
+    {
         nombre: "Borto Dev",
         ph: BortoDev,
-        texto: "Portafolio personal con 4 secciones: Home, Proyectos, Servicios y Acerca de mi",
+        texto: "Portafolio personal con 4 secciones: Home, Proyectos, Servicios y Acerca de mi.",
         linkRepo: "https://github.com/TomasBorto/BortoDev",
         linkSitio: "https://bortodev.com/",
         madeWith:[
